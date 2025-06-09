@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hostelback"
+    android:orientation="vertical"
+    android:layout_marginTop="100dp"
+    tools:context=".chatbot">
+
+    <EditText
+        android:id="@+id/eTPrompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Prompt"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Submit" />
+
+    <ScrollView
+        android:layout_width="397dp"
+        android:layout_height="496dp">
+
+        <TextView
+            android:id="@+id/tVResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result Area"
+            android:textSize="14dp" />
+
+    </ScrollView>
+</LinearLayout>

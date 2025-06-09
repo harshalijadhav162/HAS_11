@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:padding="12dp"
+        android:text="Update"
+        android:textSize="24dp"
+        android:textColor="#ffffff"
+        android:background="@color/orange"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edname"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="40dp"
+
+        android:hint="Name"
+        />
+
+    <EditText
+        android:id="@+id/ednumber"
+        android:layout_width="match_parent"
+
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:hint="Number" />
+
+    <EditText
+        android:id="@+id/edaddress"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="40dp"
+
+        android:hint="Address"
+        />
+    <EditText
+        android:id="@+id/edone"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="40dp"
+
+        android:hint="Menu One"
+        />
+    <EditText
+        android:id="@+id/edtwo"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="40dp"
+
+        android:hint="Menu Two"
+        />
+    <EditText
+        android:id="@+id/edthree"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="40dp"
+
+        android:hint="Menu Three"
+        />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnupdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:layout_margin="10dp"
+        android:text="Update"/>
+</LinearLayout>
